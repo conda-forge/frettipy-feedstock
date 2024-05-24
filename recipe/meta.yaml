@@ -1,5 +1,5 @@
 {% set name = "frettipy" %}
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2908808636ff0803a48fdfe3d9721ec8347a328aeb2869b8b9e047a5b3e46209
+  sha256: 5aac884ba5c73a5a272f3a0df0ed1d54a88f10eaa7b7672e89b5c3859847fbc5
 
 build:
   entry_points:
